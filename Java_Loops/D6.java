@@ -9,13 +9,13 @@ class D6 {
         System.out.println("How many D6's do you want to roll?");
         int rolls = sc.nextInt();
         int total = 0;
-        System.out.print("Your rolls were: ");
-        
+            
         if (rolls <= 0)
         {
             rolls = 10;
             System.out.println("nice try idiot (amount auto-set to 10");
         }
+        System.out.print("Your rolls were: ");
         
         for (int i = 1; i <= rolls; i++)
         {
