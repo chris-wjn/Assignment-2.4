@@ -10,7 +10,7 @@ public class Triangle
         System.out.println("nice try idiot");
         x = 10;
     }
-    System.out.println("Enter the letter you triangle should be made of");
+    System.out.println("Enter the letter your triangle should be made of");
     String letter = sc.next();
     for (int a = 1; a <= x; a++)
     {
